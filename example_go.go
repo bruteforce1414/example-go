@@ -1,6 +1,9 @@
 package example
 
-import "github.com/codecov/example-go/awesome"
+import (
+    "fmt"
+    "github.com/codecov/example-go/awesome"
+)
 
 var result string
 
@@ -9,6 +12,7 @@ func Setup() {
     // Comment
 
     result = awesome.Smile()
+    fmt.Println("dev")
 
 }
 
